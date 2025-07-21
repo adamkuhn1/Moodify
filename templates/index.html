@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection Playlist Player</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Emotion Detection Playlist Player</h1>
+        
+        <div class="main-content">
+            <div class="video-section">
+                <video id="video" width="320" height="240" autoplay muted></video>
+                <button id="start-btn">Start Emotion Detection</button>
+                <div id="emotion-result">Detected Emotion: <span id="emotion">None</span></div>
+                
+                <div class="controls-section">
+                    <div class="control-group">
+                        <label for="auto-refresh-toggle">Auto-refresh Playlist:</label>
+                        <input type="checkbox" id="auto-refresh-toggle" checked>
+                    </div>
+                    <button id="manual-refresh-btn" class="secondary-btn">Refresh Playlist Now</button>
+                </div>
+            </div>
+            
+            <div class="genre-section">
+                <h2>Select Genre</h2>
+                <div class="genre-buttons">
+                    <button class="genre-btn" data-genre="pop">Pop</button>
+                    <button class="genre-btn" data-genre="hip-hop">Hip Hop</button>
+                    <button class="genre-btn" data-genre="rock">Rock</button>
+                    <button class="genre-btn" data-genre="country">Country</button>
+                    <button class="genre-btn" data-genre="jazz">Jazz</button>
+                </div>
+                <div id="selected-genre">Selected Genre: <span id="genre">None</span></div>
+            </div>
+        </div>
+        
+        <div id="playlist-container">
+            <h2>Playlist</h2>
+            <div id="playlist"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/face-api.js@0.22.2/dist/face-api.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html> 

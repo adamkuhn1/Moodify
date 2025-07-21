@@ -1,0 +1,89 @@
+{
+  "happy_pop": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIdYDF5bwm196"
+  ],
+  "happy_hip-hop": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIgGVNhMRM8zv"
+  ],
+  "happy_rock": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIhGU9wlBUJK9"
+  ],
+  "happy_country": [
+    "https://open.spotify.com/embed/playlist/5pxItCRqm3tt66tNtAE9sg"
+  ],
+  "happy_jazz": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1DX5YTAi6JhwZm"
+  ],
+  "sad_pop": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIdZrPvCvCkh4"
+  ],
+  "sad_hip-hop": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIcZUgkA3BSiL"
+  ],
+  "sad_rock": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIcxHInSBQ4YQ"
+  ],
+  "sad_country": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIfEGTskUZALU"
+  ],
+  "sad_jazz": [
+    "https://open.spotify.com/embed/playlist/7qeCm7IXwiIbXEguXiOknC"
+  ],
+  "angry_pop": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIfThrCEERy1q"
+  ],
+  "angry_hip-hop": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIcRK7JMCMZ3M"
+  ],
+  "angry_rock": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIfLeXYo5Rqhb"
+  ],
+  "angry_country": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIcrCwAQ4SmOo"
+  ],
+  "angry_jazz": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIhQzFqLLC3b2"
+  ],
+  "neutral_pop": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIehE24MT7gFU"
+  ],
+  "neutral_hip-hop": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EIgbjUtLiWmHt"
+  ],
+  "neutral_rock": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EQpj7X7UK8OOF"
+  ],
+  "neutral_country": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1EQmPV0vrce2QZ"
+  ],
+  "neutral_jazz": [
+    "https://open.spotify.com/embed/playlist/37i9dQZF1DXbITWG1ZJKYt"
+  ],
+  "pop": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ],
+  "hip-hop": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ],
+  "rock": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ],
+  "country": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ],
+  "jazz": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ],
+  "happy": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ],
+  "sad": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ],
+  "angry": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ],
+  "neutral": [
+    "https://open.spotify.com/embed/track/4iV5W9uYEdYUVa79Axb7Rh"
+  ]
+} 
