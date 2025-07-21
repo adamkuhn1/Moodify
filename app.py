@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 CORS(app)
 
-# Load playlist mapping
+# Load playlist mappings from JSON
 with open('playlists.json', 'r') as f:
     PLAYLISTS = json.load(f)
 
@@ -20,23 +20,20 @@ def get_playlist():
     data = request.get_json()
     emotion = data.get('emotion', 'neutral')
     genre = data.get('genre')
-    
+
     session['last_emotion'] = emotion
     session['last_genre'] = genre
-    
-    # If genre is selected, look for emotion-genre combination
+
+    # Prioritize emotion-genre combo, then genre, then emotion, then neutral fallback
     if genre:
-        # Try to find emotion-genre combination first
         emotion_genre_key = f"{emotion}_{genre}"
         if emotion_genre_key in PLAYLISTS:
             playlist = PLAYLISTS[emotion_genre_key]
         else:
-            # Fallback to genre-only playlists
             playlist = PLAYLISTS.get(genre, PLAYLISTS.get('neutral', []))
     else:
-        # Fallback to emotion-only playlists
         playlist = PLAYLISTS.get(emotion, PLAYLISTS.get('neutral', []))
-    
+
     return jsonify({'playlist': playlist})
 
 if __name__ == '__main__':

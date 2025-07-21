@@ -199,11 +199,9 @@ h1 {
     .main-content {
         flex-direction: column;
     }
-    
     .genre-section {
         order: -1;
     }
-    
     #playlist {
         grid-template-columns: 1fr;
     }
