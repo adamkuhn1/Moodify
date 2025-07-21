@@ -1,4 +1,4 @@
-# Emotion Detection Playlist Player
+# Moodify
 
 A modern web app that detects your emotion via webcam and plays a genre-specific Spotify playlist to match your mood. Built with Python (Flask), JavaScript, face-api.js, and Spotify embeds.
 
